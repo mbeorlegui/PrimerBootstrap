@@ -1,0 +1,59 @@
+.tomato{
+    background: tomato;
+}
+
+.rebecca{
+    background: rebeccapurple;
+}
+
+.icon{
+    font-size: 72px;
+}
+
+.footer{
+    background: #f7f7f7;
+    min-height: 240px;
+    /* EL MIN-HEIGHT ES LO QUE HACE AL FOOTER RESPONSIVE */
+    color: grey;
+    width: 100%;
+    background-size: cover;
+    font-family: 'Lato', sans-serif; 
+}
+
+textarea {
+    resize: none;
+ }
+
+.header{
+    /* vh = vertical height vw = vertical width*/
+    /* USAR VH Y VW SIEMPRE PARA QUE SEA DAPTE AL CELULAR */
+    height: 45vh;
+    background-image: url("../images/codigo.jpg");
+    /* ADAPTO IMAGEN AL CONTENIDO DE LA CAJA */
+    background-size: cover;
+}
+
+.icono:hover{
+    transform: scale(1.5) rotate(10deg);
+    /* Agranda las veces quee esta entre parentesis */
+    transition-duration: 400ms;
+}
+
+.imagen{
+    width: 150px;
+    height: auto;
+}
+
+.imagen:hover{
+    transform: scale(1.5);
+    transition-duration: 500ms;
+    opacity: 0.8;
+}
+
+.logo-image{
+    height: 5vh;
+    width: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}

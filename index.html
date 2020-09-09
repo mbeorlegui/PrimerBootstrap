@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Matias Beorlegui</title>
+        <link 
+            rel="stylesheet" 
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
+            crossorigin="anonymous"
+        />
+        <!-- Boostrap SIEMPRE arriba -->
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/929ac9c043.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a href="index.html"><img src="images/rhcp.png" alt="Aviso de imagen rota" class="logo-image text-center pt-1" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="#about">About me</a>
+                <a class="nav-item nav-link" href="#skills">Skills</a>
+                <a class="nav-item nav-link" href="#contacto">Contacto</a>
+              </div>
+            </div>
+        </nav>
+        
+        <!-- El container fluid ocupa el total del ancho de la pagina-->
+        <header class="container-fluid header">
+            <div class="row">
+                <div class="col">
+                    <h1 class="p-5 text-center text-white">Matias Beorlegui</h1>
+                </div>
+            </div>
+        </header>
+        
+        <div class="container mt-5">
+            <h2 class="text-center" id="about" name="about">About me</h2>
+            <div class="row mt-5">
+                <!-- La suma de las columnas tiene que dar 12 SIEMPRE -->
+                <div class="col-xl-4 col-lg-6 col-xs-12 p-5 d-flex justify-content-center">
+                    <a href="index.html"><img class="imagen" style="border-radius: 8%;" src="images/yo.jpeg" alt="Aviso de imagen rota"></a>
+                </div>
+                <div class="col-xl-8 col-lg-6 col-xs-12 p-3">
+                    <h2 class="text-black pt-4">Acerca de mi...</h2>
+                    <p class="text-black text-justify">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci ratione blanditiis magnam facilis nesciunt incidunt, asperiores explicabo provident excepturi! Totam tempore delectus mollitia magni dignissimos? Exercitationem cumque consectetur ipsum dolores nam provident laborum! Iure dicta earum iusto odio quos porro possimus! Odio corporis quibusdam veniam possimus enim, reprehenderit alias laboriosam.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-xl-8 col-lg-6 col-xs-12 p-3">
+                    <p class="text-black text-justify">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci ratione blanditiis magnam facilis nesciunt incidunt, asperiores explicabo provident excepturi! Totam tempore delectus mollitia magni dignissimos? Exercitationem cumque consectetur ipsum dolores nam provident laborum! Iure dicta earum iusto odio quos porro possimus! Odio corporis quibusdam veniam possimus enim, reprehenderit alias laboriosam.
+                    </p>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-xs-12 p-5">
+                    <p class="imagen">IMAGEN 2</p>
+                </div>
+            </div>
+            <hr>
+            <section id="skills" name="skills" class="container mt-5">
+                <h2 class="text-center">Skills</h2>
+                    <div class="row mt-5">
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-xl-6 col-md-4 d-flex justify-content-center">
+                                    <a href="index.html"><i style="color: orange;" class="fab fa-html5 icon text-center icono"></i></a>
+                                </div>
+                                <div class="col-xl-6 col-md-8 align-items-center justify-content-center">
+                                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, facere illo! Deleniti eum iusto iste molestiae laboriosam dolorem, beatae facere.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <div class="row align-items-center">
+                                <div class="col-xl-6 col-md-4 d-flex justify-content-center icono">
+                                    <a href="index.html"><img src="images/python.ico" width="70%" alt="Aviso de imagen rota"></a>
+                                </div>
+                                <div class="col-xl-6 col-md-8 align-items-center">
+                                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nihil voluptas quis assumenda eveniet amet eaque, ab doloremque quod labore!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <hr>            
+            <section class="container">
+                <h2 class="text-center pt-6" id="contacto" name="contacto">Contacto</h2>
+                <div class="row mt-5 justify-content-center">
+                    <div class="col-xl-6 col-lg-6 col-md-8 col-xs-12">
+                        <form action="#" method="post">
+                            <div class="form-group">
+                                <label for="nc">Nombre Completo <span class="text-warning">*</span></label>
+                                <input id="nc" type="text" class="form-control" placeholder="Nombre completo">
+                            </div>
+                            <div class="form-group">
+                                <label for="mail">Correo electronico <span class="text-warning">*</span></label>
+                                <input id="mail" type="email" class="form-control"  placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="comentario">Comentario <span class="text-warning">*</span></label>
+                                <textarea id="comentario" class="form-control" placeholder="Comentario"></textarea>
+                            </div>
+                            <button class="btn btn-success btn-block">Enviar 📩</button>
+                            <!--    
+                                btn-block expande al 100% de la columa en la que esta
+                                btn-outline-success invierte los colores del boton
+                            -->
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer class="container-fluid mt-5 footer">
+            <div class="row justify-content-center align-items-center pt-3 pb-3">
+                <!-- Debo convertir el texto en FLEXBOX para alinearlo adentro de su columna -->
+                <div class="col-xl-3 col-md-12 align-items-center justify-content-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d820.8337865860027!2d-58.417089370780076!3d-34.620969998778435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaf8970d9401%3A0xe27a224801f6964a!2sAv.%20Independencia%20%26%20Av.%20Boedo%2C%20C1226%20CABA!5e0!3m2!1ses!2sar!4v1599510139956!5m2!1ses!2sar" width="100%" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="col-xl-3 col-md-6 text-center align-items-center justify-content-center">
+                    <address>
+                        <p>Almagro, Capital Federal</p>
+                    </address>
+                    <p>+54 9 1140729494</p>
+                    <i class="fab fa-linkedin-in fa-3x icono mr-1" style="color: #0077b5;"></i>
+                    <i class="fab fa-github fa-3x icono ml-1" style="color: black"></i>
+                </div>
+                <div class="col-xl-3 col-md-6 text-center justify-content-center align-items-center">
+                    Copyright © 1999-2020 Matias Beorlegui
+                </div>
+            </div>
+
+        </footer>
+
+    </body>
+</html>
